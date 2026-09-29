@@ -1,0 +1,17 @@
+[package]
+name = "cam-gpu"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+cam-signal = { workspace = true }
+objc2 = { workspace = true }
+objc2-foundation = { workspace = true }
+objc2-metal = { workspace = true }
+objc2-core-graphics = { workspace = true }
+thiserror = { workspace = true }
+
+[lints]
+workspace = true

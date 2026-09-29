@@ -1,0 +1,13 @@
+[package]
+name = "cam-test"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+cam-gpu = { workspace = true }
+cam-signal = { workspace = true }
+
+[lints]
+workspace = true

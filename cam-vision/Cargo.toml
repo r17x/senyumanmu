@@ -1,0 +1,17 @@
+[package]
+name = "cam-vision"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+cam-gpu = { workspace = true }
+objc2 = { workspace = true }
+objc2-foundation = { workspace = true }
+objc2-vision = { workspace = true }
+objc2-core-video = { workspace = true }
+objc2-core-foundation = { workspace = true }
+
+[lints]
+workspace = true

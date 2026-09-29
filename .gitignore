@@ -1,0 +1,48 @@
+# Ignore everything
+*
+
+# Root
+!.gitignore
+!README.md
+!flake.nix
+!flake.lock
+!Cargo.toml
+!Cargo.lock
+
+# cam-gpu — Metal GPU compute
+!cam-gpu/
+!cam-gpu/Cargo.toml
+!cam-gpu/src/
+!cam-gpu/src/*.rs
+!cam-gpu/shaders/
+!cam-gpu/shaders/*.metal
+
+# cam-signal — signal types
+!cam-signal/
+!cam-signal/Cargo.toml
+!cam-signal/src/
+!cam-signal/src/*.rs
+
+# cam-vision — Apple Vision face detection
+!cam-vision/
+!cam-vision/Cargo.toml
+!cam-vision/src/
+!cam-vision/src/*.rs
+
+# cam-affect — AU geometry + affect classification
+!cam-affect/
+!cam-affect/Cargo.toml
+!cam-affect/src/
+!cam-affect/src/*.rs
+
+# cam-test — integration test binary
+!cam-test/
+!cam-test/Cargo.toml
+!cam-test/src/
+!cam-test/src/*.rs
+
+# cam-demo — live camera demo binary
+!cam-demo/
+!cam-demo/Cargo.toml
+!cam-demo/src/
+!cam-demo/src/*.rs
